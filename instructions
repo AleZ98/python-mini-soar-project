@@ -1,0 +1,11 @@
+Dacă se adaugă o linie nouă în auth.log:
+
+Citește linia și extrage IP-ul și acțiunea.
+
+Dacă acțiunea este „Failed login”:
+
+Adaugă ora curentă în lista IP-ului respectiv.
+
+Șterge din listă încercările mai vechi de 5 minute.
+
+Dacă au rămas mai mult de 3 încercări, blochează IP-ul.
